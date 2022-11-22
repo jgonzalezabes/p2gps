@@ -42,7 +42,7 @@ jobs:
             cp src/Clients/build/libs/*.war deploy/docker/Clients/drop #copiar el resultado del buid para la nueva imagen
             docker build -t p2gps/web deploy/docker/Clients #p2gps o el nombre que tenga tu repo
             cp src/Backend/OrderService/build/libs/ordering* deploy/docker/Order/drop
-            docker build -t p2gps/order deploy/docker/Order
+            #docker build -t p2gps/order deploy/docker/Order
             
         ###SUBIR IMAGENES A DOCKERHUB ###
         
