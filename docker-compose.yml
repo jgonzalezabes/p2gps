@@ -14,7 +14,7 @@ services:
       - "28017"
       - "27017"
     volumes:
-      - db-data:/var/logs/
+      - "db-data:/var/logs/"
 
   order:
     image: jgonzalezabes/p2gps:order
